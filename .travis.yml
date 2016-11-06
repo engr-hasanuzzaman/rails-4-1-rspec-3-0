@@ -9,4 +9,4 @@ script:
   - bundle exec rspec spec/
 before_script:
 #  - mysql -e 'create database myapp_test'
-bundler_args: --binstubs=./bundler_stubs
+#bundler_args: --binstubs=./bundler_stubs
