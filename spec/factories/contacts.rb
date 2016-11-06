@@ -3,5 +3,9 @@ FactoryGirl.define do
     firstname { Faker::Name.first_name }
     lastname { Faker::Name.last_name }
     email { Faker::Internet.email }
+
+    factory :invalid_contact do
+      lastname nil
+    end
   end
 end
